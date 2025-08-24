@@ -377,6 +377,16 @@ body {
 
 /* ===== Responsive Fixes ===== */
 
+/* Home Page Responsiveness */
+@media (max-width: 768px) {
+  .gallery img {
+    width: 95%;      /* expand images */
+    max-height: auto;
+    margin: 10px auto; 
+    display: block;  /* centers them */
+  }
+}
+
 /* Contact Page Responsiveness */
 @media screen and (max-width: 768px) {
   .contact-container {
