@@ -378,12 +378,15 @@ body {
 /* ===== Responsive Fixes ===== */
 
 /* Home Page Responsiveness */
-@media (max-width: 768px) {
-  .gallery img {
-    width: 95%;      /* expand images */
-    max-height: auto;
-    margin: 10px auto; 
-    display: block;  /* centers them */
+@media (max-width: 600px) {
+  .gallery-track img {
+    width: 90%;           /* make images take most of phone width */
+    max-width: 200px;     /* but don’t let them get too big */
+    height: auto;         /* keep natural aspect ratio */
+    border-radius: 15px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;  /* center with spacing */
   }
 }
 
