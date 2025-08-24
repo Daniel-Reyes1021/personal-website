@@ -380,8 +380,8 @@ body {
 /* Home Page Responsiveness */
 @media (max-width: 600px) {
   .gallery-track img {
-    width: 100px;        /* same width */
-    height: 100px;       /* same height */
+    width: 55.79px;        
+    height: 100px;       
     object-fit: cover;   /* crops instead of distorting */
     border-radius: 15px;
     display: block;
