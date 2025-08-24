@@ -376,40 +376,6 @@ body {
 }
 
 /* ===== Responsive Fixes ===== */
-@media screen and (max-width: 768px) {
-  /* Stack content instead of side-by-side */
-  .content-section {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  /* Statement box takes full width */
-  .statement-container {
-    width: 100%;
-    height: auto; /* remove fixed height */
-    margin-bottom: 20px;
-  }
-
-  /* Gallery adapts below statement */
-  .gallery-container {
-    width: 100%;
-    height: auto; /* remove fixed height */
-    padding: 10px;
-    flex-direction: column;
-  }
-
-  .gallery-track {
-    flex-direction: row; /* side-scroll instead of tall column */
-    overflow-x: auto;
-    overflow-y: hidden;
-    gap: 10px;
-  }
-
-  .gallery-track img {
-    width: 150px;
-    height: auto;
-  }
-}
 
 /* Contact Page Responsiveness */
 @media screen and (max-width: 768px) {
