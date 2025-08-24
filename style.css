@@ -380,13 +380,12 @@ body {
 /* Home Page Responsiveness */
 @media (max-width: 600px) {
   .gallery-track img {
-    width: 90%;           /* make images take most of phone width */
-    max-width: 200px;     /* but don’t let them get too big */
-    height: auto;         /* keep natural aspect ratio */
+    width: 150px;        /* same width */
+    height: 150px;       /* same height */
+    object-fit: cover;   /* crops instead of distorting */
     border-radius: 15px;
-    object-fit: cover;
     display: block;
-    margin: 0 auto 15px;  /* center with spacing */
+    margin: 0 auto 15px; /* center and add spacing */
   }
 }
 
